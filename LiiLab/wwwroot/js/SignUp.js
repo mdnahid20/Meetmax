@@ -2,7 +2,6 @@
 window.onload = function () {
 
     const form = document.getElementById('signUpForm');
-    console.log("sdfh");
     form.onsubmit = function (event) {
         event.preventDefault();
 
@@ -43,30 +42,3 @@ window.onload = function () {
         });
     }
 }
-
-
-
-
-const togglePassword = document.getElementById('togglePassword');
-const passwordField = document.getElementById('userPassword');
-
-//togglePassword.addEventListener('click', function (event) {
-//    const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
-//    passwordField.setAttribute('type', type);
-//    const eyeIcon = type === 'password' ? '/Icon/Eye Off.png' : '/Icon/Eye.png';
-//    togglePassword.setAttribute('src', eyeIcon);
-//});
-//document.getElementById('signUpForm').onsubmit = function (event) {
-//    event.preventDefault();
-//    const email = document.getElementById('userEmail').value;
-//    const name = document.getElementById('userName').value;
-//    const password = document.getElementById('userPassword').value;
-//    const dateOfBirth = document.getElementById('dateOfBirth').value;
-//    const selectedGender = document.querySelector('.gender-option:checked');
-
-//    var formData = $(this).serialize();
-
-//    console.log(formData);
-
-
-//};

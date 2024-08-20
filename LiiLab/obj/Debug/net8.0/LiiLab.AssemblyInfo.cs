@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LiiLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fcb52a52efe73311f559f6dbac1d7453d3ba158")]
 [assembly: System.Reflection.AssemblyProductAttribute("LiiLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LiiLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

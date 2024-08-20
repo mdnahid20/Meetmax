@@ -1,10 +1,9 @@
 ﻿window.onload = function () {
 
-    LoadPostList();
-    console.log("sdbs");
+    loadPostList();
 };
 
-function LoadPostList() {
+function loadPostList() {
 
     $.ajax({
         url: "/Home/GetPostList",
@@ -13,7 +12,7 @@ function LoadPostList() {
         success: function (data) {
             if (data.success) {
                 console.log('Successfully');
-                AppendPostList(data.list);
+                appendPostList(data.list);
 
             } else
                 alert("Can't Load Now!");
@@ -24,7 +23,7 @@ function LoadPostList() {
     });
 }
 
-function WritePost() {
+function writePost() {
     var post = document.getElementById("inputPost");
 
     $.ajax({
@@ -46,7 +45,7 @@ function WritePost() {
     });
 }
 
-function AppendPostList(data) {
+function appendPostList(data) {
     data.forEach(item => {
         appendPost(item);
     });
@@ -108,18 +107,18 @@ function appendComment(postId, item)
 
 async function handleLikeClick(id, postId) {
     try {
-        await UpdateLike(postId);
-        const updatedLikeCount = await GetLikeNumber(postId);
+        await updateLike(postId);
+        const updatedLikeCount = await getLikeNumber(postId);
         document.getElementById(id).innerHTML = ` <img src="/Icon/thumb-up.png" alt="Like"> Like ${updatedLikeCount}`;
     } catch (error) {
         console.error('Error updating like:', error);
     }
 }
 
-function UpdateLike(postId) {
+function updateLike(postId) {
     return new Promise((resolve, reject) => {
         $.ajax({
-            url: "/Home/UpdateLike",
+            url: "/Home/updateLike",
             dataType: "json",
             type: "POST",
             data: { postId: postId },
@@ -140,7 +139,7 @@ function UpdateLike(postId) {
     });
 }
 
-function GetLikeNumber(postId) {
+function getLikeNumber(postId) {
     return new Promise((resolve, reject) => {
         $.ajax({
             url: "/Home/GetLikeNumber",

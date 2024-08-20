@@ -32,8 +32,13 @@
             <a class="english-uk">English (UK)</a>
             <div class="dropdown">
                 <img class="iconfillangle-down"
-                     alt=""
-                     src="~/Icon/Angle-down.png" />
+                     alt="Dropdown"
+                     src="~/Icon/Angle-down.png" onclick="toggleDropdown()" />
+                <div class="dropdown-content">
+                    <a href="#" onclick="selectLanguage('English (US)')">English (US)</a>
+                    <a href="#" onclick="selectLanguage('Spanish')">Spanish</a>
+                    <a href="#" onclick="selectLanguage('French')">French</a>
+                </div>
             </div>
         </div>
     </header>
@@ -43,5 +48,6 @@
     </div>
 
     @RenderSection("Scripts", required: false)
+    
 </body>
 </html>

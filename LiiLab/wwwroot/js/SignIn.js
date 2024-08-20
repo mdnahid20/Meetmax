@@ -15,7 +15,7 @@
         const rememberMe = document.getElementById('rememberMe').checked;
 
         if (rememberMe) {
-            localStorage.setItem('rememberedUserEmail', useremail);
+            localStorage.setItem('rememberedUserEmail', email);
         } else {
             localStorage.removeItem('rememberedUserEmail');
         }

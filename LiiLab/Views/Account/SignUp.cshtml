@@ -1,12 +1,14 @@
-﻿<html>
+﻿<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Sign Up</title>
 
-    <link rel="stylesheet" href="~/css/global.css" />
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="~/css/SignUp.css" />
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" />
+
+    <!-- Scripts -->
     <script src="~/js/SignUp.js"></script>
     <script src="~/js/Validation.js"></script>
     <script src="~/js/global.js"></script>
@@ -28,6 +30,8 @@
                 </div>
                 <form class="form validate-form" id="signUpForm">
                     <div class="background2"></div>
+
+                    <!-- Social Logins -->
                     <div class="social-logins">
                         <div class="google-button">
                             <div class="bg1"></div>
@@ -50,6 +54,8 @@
                             <div class="log-in-with1">Log in with Apple</div>
                         </div>
                     </div>
+
+                    <!-- Divider -->
                     <div class="or">
                         <div class="divider-wrapper">
                             <div class="divider"></div>
@@ -59,6 +65,8 @@
                             <div class="divider1"></div>
                         </div>
                     </div>
+
+                    <!-- Signup Form -->
                     <div class="signup-form">
                         <div class="your-email">
                             <div class="shape"></div>
@@ -69,9 +77,10 @@
                             </div>
                             <input class="your-email1" id="userEmail"
                                    placeholder="Your Email"
-                                   type="text" name="email"/>
-                            
+                                   type="text" name="email" />
                         </div>
+
+                        <!-- Name -->
                         <div class="your-name">
                             <div class="shape1"></div>
                             <div class="iconfillsmile-wrapper">
@@ -79,8 +88,10 @@
                                      alt=""
                                      src="~/Icon/Smile.png" />
                             </div>
-                            <input class="your-name1" id="userName" placeholder="Your Name" type="text" name="name"/>
+                            <input class="your-name1" id="userName" placeholder="Your Name" type="text" name="name" />
                         </div>
+
+                        <!-- Password -->
                         <div class="create-password">
                             <div class="shape2"></div>
                             <div class="frame-parent">
@@ -91,10 +102,12 @@
                                 </div>
                                 <input class="create-password1" id="userPassword"
                                        placeholder="Create Password"
-                                       type="text" name="password"/>
+                                       type="text" name="password" />
                                 <i class="iconfilleye fas fa-eye fa-xs toggle-password"></i>
                             </div>
                         </div>
+
+                        <!-- Date of Birth -->
                         <div class="input-fields">
                             <div class="date-of-birth">
                                 <div class="shape3"></div>
@@ -103,11 +116,13 @@
                                          alt=""
                                          src="~/Icon/Calendar.png" />
                                 </div>
-                                <div class="date-of-birth1"  id="dobText">
+                                <div class="date-of-birth1" id="dobText">
                                     Date of birth
                                 </div>
-                                <input type="date" id="dateOfBirth" class="date-of-birth2" name="date"/>
+                                <input type="date" id="dateOfBirth" class="date-of-birth2" name="date" />
                             </div>
+
+                            <!-- Gender -->
                             <div class="gender">
                                 <div class="shape4"></div>
                                 <img class="iconfillfemale" alt="Gender Icon" src="~/Icon/gender.png" />
@@ -126,10 +141,14 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Sign Up Button -->
                     <button class="sign-up1">
                         <div class="bg3"></div>
                         <div class="sign-up2">Sign Up</div>
                     </button>
+
+                    <!-- Account Link -->
                     <div class="account-link">
                         <div class="login-link">
                             <div class="already-have-an">Already have an account?</div>

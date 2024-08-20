@@ -18,4 +18,14 @@
     toggleIcons.forEach(function (icon) {
         icon.addEventListener('click', togglePasswordVisibility);
     });
+    
 });
+function toggleDropdown() {
+    console.log(2);
+    const dropdownContent = document.querySelector('.dropdown-content');
+    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+}
+function selectLanguage(language) {
+    document.querySelector('.english-uk').textContent = language;
+    document.querySelector('.dropdown-content').style.display = 'none';
+}

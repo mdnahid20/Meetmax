@@ -121,10 +121,6 @@
       "PackagePath": "staticwebassets\\js\\global.js"
     },
     {
-      "Id": "C:\\Users\\MSI\\source\\repos\\New folder\\LiiLab\\LiiLab\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
       "Id": "C:\\Users\\MSI\\source\\repos\\New folder\\LiiLab\\LiiLab\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

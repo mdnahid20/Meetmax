@@ -1,20 +1,4 @@
-﻿//(function () {
-//    document.addEventListener('DOMContentLoaded', function () {
-        
-
-
-//        const forms = document.querySelectorAll('form.validate-form');
-//        forms.forEach(form => {
-//            form.addEventListener('submit', function (event) {
-//                event.preventDefault();
-//                if (validateForm(form)) {
-//                    sendFormData(form);
-//                }
-//            });
-//        });
-//    });
-
-    function validateForm(form) {
+﻿   function validateForm(form) {
         let isValid = true;
         clearErrors(form);
         console.log("df");
@@ -93,4 +77,3 @@
         const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(String(email).toLowerCase());
     }
-/*})();*/

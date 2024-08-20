@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oLeX1bo5wAVXZ9zIsuq3GiOJ7l+/aykygrEWERxIFiE=",
+  "Hash": "YfnIRwBFJRzDEy9Hlfz0Ji/6O+OQ4j40S6pmkE45LJ8=",
   "Source": "LiiLab",
   "BasePath": "_content/LiiLab",
   "Mode": "Default",
@@ -585,25 +585,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\SignUp.js"
-    },
-    {
-      "Identity": "C:\\Users\\MSI\\source\\repos\\New folder\\LiiLab\\LiiLab\\wwwroot\\js\\site.js",
-      "SourceId": "LiiLab",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\source\\repos\\New folder\\LiiLab\\LiiLab\\wwwroot\\",
-      "BasePath": "_content/LiiLab",
-      "RelativePath": "js/site.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\MSI\\source\\repos\\New folder\\LiiLab\\LiiLab\\wwwroot\\js\\Validation.js",
