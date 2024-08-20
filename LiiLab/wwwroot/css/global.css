@@ -1,0 +1,212 @@
+﻿body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --display-m: Roboto;
+    /* font sizes */
+    --display-m-size: 16px;
+    --body-m-size: 14px;
+    --heading-1-black-size: 30px;
+    --heading-3-bold-size: 18px;
+    /* Colors */
+    --blue-primary-blue: #377dff;
+    --grayscale-w-20: rgba(78, 93, 120, 0.2);
+    /* Gaps */
+    --gap-xl: 20px;
+    --gap-3xs: 10px;
+    --gap-11xl: 30px;
+    --gap-mini: 15px;
+    /* Paddings */
+    --padding-21xl: 40px;
+    --padding-4xl: 23px;
+    --padding-xl: 20px;
+    --padding-sm: 14px;
+    --padding-2xl: 21px;
+    --padding-mini: 15px;
+    --padding-10xs: 3px;
+    --padding-11xl: 30px;
+    --padding-5xs: 8px;
+    --padding-8xs: 5px;
+    --padding-7xs: 6px;
+    --padding-12xs: 1px;
+    --padding-7xl: 26px;
+    --padding-smi: 13px;
+    --padding-9xs: 4px;
+    /* Border radiuses */
+    --br-3xs: 10px;
+    --br-xl: 20px;
+    --br-9xs: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    z-index: 1;
+    top:5px;
+    left:50px;
+    text-align: right;
+    white-space: nowrap;
+    align-items: flex-end;
+}
+
+.background,
+.background1 {
+    background: linear-gradient(rgba(78, 93, 120, 0), rgba(78, 93, 120, 0)), #fff;
+}
+
+.background {
+    align-self: stretch;
+    height: 930px;
+    position: relative;
+    display: none;
+}
+
+.background1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.logo-icon {
+    width: 26px;
+    height: 26px;
+    position: relative;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+}
+
+.meetmax {
+    text-decoration: none;
+    position: relative;
+    line-height: 28px;
+    font-weight: 700;
+    background: linear-gradient(#4e5d78, #4e5d78), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    min-width: 76px;
+    white-space: nowrap;
+}
+
+.logo {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+}
+
+.header-content,
+.iconlogologo,
+.logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.iconlogologo {
+    flex-direction: row;
+    padding: 0 var(--padding-7xs) 0 0;
+    z-index: 1;
+}
+
+.header-content {
+    flex-direction: column;
+    padding: var(--padding-8xs) 0 0;
+}
+
+.bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    backdrop-filter: blur(50px);
+    border-radius: var(--br-9xs);
+    background: linear-gradient(rgba(78, 93, 120, 0), rgba(78, 93, 120, 0)), #fff;
+}
+
+.english-uk {
+    text-decoration: none;
+    position: relative;
+    line-height: 22px;
+    font-weight: 500;
+    background: linear-gradient(rgba(78, 93, 120, 0.6), rgba(78, 93, 120, 0.6)), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    min-width: 78px;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.iconfillangle-down {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+}
+
+.cardwhiteheader,
+.select-language {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-xl);
+}
+
+.select-language {
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-xl);
+    position: relative;
+    z-index: 1;
+    font-size: var(--body-m-size);
+}
+
+.cardwhiteheader {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: var(--padding-xl) var(--padding-11xl);
+    position: sticky;
+    flex-shrink: 0;
+    top: 0;
+    z-index: 99;
+    text-align: left;
+    font-size: var(--heading-3-bold-size);
+    font-family: var(--display-m);
+}
+
+.background-design-icon {
+    height: 1179px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}

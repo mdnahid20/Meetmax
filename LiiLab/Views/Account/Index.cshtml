@@ -1,0 +1,110 @@
+﻿
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="~/css/global.css" />
+    <link rel="stylesheet" href="~/css/SignIn.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" />
+    <script src="~/js/SignIn.js"></script>
+    <script src="~/js/Validation.js"></script>
+    <script src="~/js/global.js"></script>
+</head>
+<body>
+    <div class="login-page">
+        <div class="card-main-container">
+            <div class="cardwhitemain">
+                <div class="main-content">
+                    <div class="title">
+                        <div class="sign-in-title">
+                            <a class="sign-in">Sign In</a>
+                        </div>
+                        <div class="welcome-back-youve">
+                            Welcome back, you’ve been missed!
+                        </div>
+                    </div>
+                </div>
+                <form class="form validate-form" id="loginForm">
+                    <div class="background2"></div>
+                    <div class="button-container">
+                        <div class="google-button">
+                            <div class="bg1"></div>
+                            <div class="google-icon-container">
+                                <img class="iconfillgoogle"
+                                     loading="lazy"
+                                     alt=""
+                                     src="~/Icon/Google.png" />
+                            </div>
+                            <div class="log-in-with">Log in with Google</div>
+                        </div>
+                        <div class="apple-button">
+                            <div class="bg2"></div>
+                            <div class="apple-icon-container">
+                                <img class="iconfillapple"
+                                     loading="lazy"
+                                     alt=""
+                                     src="~/Icon/Apple.png" />
+                            </div>
+                            <div class="log-in-with1">Log in with Apple</div>
+                        </div>
+                    </div>
+                    <div class="or">
+                        <div class="divider-container">
+                            <div class="divider"></div>
+                        </div>
+                        <b class="or1">OR</b>
+                        <div class="divider-container1">
+                            <div class="divider1"></div>
+                        </div>
+                    </div>
+                    <div class="input-fields">
+                        <div class="your-email">
+                            <div class="input-data"></div>
+                            <div class="input-icon-container">
+                                <img class="iconfillmail-"
+                                     alt=""
+                                     src="~/Icon/Mail.png" />
+                            </div>
+                            <input id="userEmail" class="your-email1"
+                                   placeholder="Your Email" name="email"
+                                   type="text">
+                        </div>
+                        <div class="create-password">
+                            <div class="input-data1"></div>
+                            <div class="frame-parent">
+                                <div class="iconfilllock-wrapper">
+                                    <img class="iconfilllock"
+                                         alt=""
+                                         src="~/Icon/Lock.png" />
+                                </div>
+                                <input class="inter-password" id="userPassword"
+                                       placeholder="Inter Password"
+                                       type="text" name="password"/>
+                                <i class="iconfilleye fas fa-eye fa-xs toggle-password"></i>
+                            </div>
+                        </div>
+                        <div class="remember-forgot">
+                            <div class="remember-me">
+                                <input id="rememberMe" class="remember-icon-container" type="checkbox" />
+                                <div class="remember-me1">Remember me</div>
+                            </div>
+                            <a href="/Account/ForgotPassword" class="forgot-password">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <button class="sign-up">
+                        <div class="bg3"></div>
+                        <div class="sign-in1">Sign In</div>
+                    </button>
+                    <div class="sign-up-container">
+                        <div class="you-havent-any-account-parent">
+                            <div class="you-havent-any">You haven't any account?</div>
+                            <a href="/Account/SignUp" class="sign-up1">Sign Up</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

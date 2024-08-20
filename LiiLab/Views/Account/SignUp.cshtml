@@ -1,0 +1,144 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/global.css" />
+    <link rel="stylesheet" href="~/css/SignUp.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" />
+    <script src="~/js/SignUp.js"></script>
+    <script src="~/js/Validation.js"></script>
+    <script src="~/js/global.js"></script>
+</head>
+<body>
+    <div class="sign-up">
+        <div class="background"></div>
+        <div class="card-content">
+            <div class="cardwhitemain">
+                <div class="title-wrapper">
+                    <div class="title">
+                        <div class="getting-started-wrapper">
+                            <h2 class="getting-started">Getting Started</h2>
+                        </div>
+                        <div class="create-an-account">
+                            Create an account to continue and connect with the people.
+                        </div>
+                    </div>
+                </div>
+                <form class="form validate-form" id="signUpForm">
+                    <div class="background2"></div>
+                    <div class="social-logins">
+                        <div class="google-button">
+                            <div class="bg1"></div>
+                            <div class="google-login-icon">
+                                <img class="iconfillgoogle"
+                                     loading="lazy"
+                                     alt=""
+                                     src="~/Icon/Google.png" />
+                            </div>
+                            <div class="log-in-with">Log in with Google</div>
+                        </div>
+                        <div class="apple-button">
+                            <div class="bg2"></div>
+                            <div class="apple-login-icon">
+                                <img class="iconfillapple"
+                                     loading="lazy"
+                                     alt=""
+                                     src="~/Icon/Apple.png" />
+                            </div>
+                            <div class="log-in-with1">Log in with Apple</div>
+                        </div>
+                    </div>
+                    <div class="or">
+                        <div class="divider-wrapper">
+                            <div class="divider"></div>
+                        </div>
+                        <b class="or1">OR</b>
+                        <div class="divider-container">
+                            <div class="divider1"></div>
+                        </div>
+                    </div>
+                    <div class="signup-form">
+                        <div class="your-email">
+                            <div class="shape"></div>
+                            <div class="account-details">
+                                <img class="iconfillmail-"
+                                     alt=""
+                                     src="~/Icon/Mail.png" />
+                            </div>
+                            <input class="your-email1" id="userEmail"
+                                   placeholder="Your Email"
+                                   type="text" name="email"/>
+                            
+                        </div>
+                        <div class="your-name">
+                            <div class="shape1"></div>
+                            <div class="iconfillsmile-wrapper">
+                                <img class="iconfillsmile"
+                                     alt=""
+                                     src="~/Icon/Smile.png" />
+                            </div>
+                            <input class="your-name1" id="userName" placeholder="Your Name" type="text" name="name"/>
+                        </div>
+                        <div class="create-password">
+                            <div class="shape2"></div>
+                            <div class="frame-parent">
+                                <div class="iconfilllock-wrapper">
+                                    <img class="iconfilllock"
+                                         alt=""
+                                         src="~/Icon/Lock.png" />
+                                </div>
+                                <input class="create-password1" id="userPassword"
+                                       placeholder="Create Password"
+                                       type="text" name="password"/>
+                                <i class="iconfilleye fas fa-eye fa-xs toggle-password"></i>
+                            </div>
+                        </div>
+                        <div class="input-fields">
+                            <div class="date-of-birth">
+                                <div class="shape3"></div>
+                                <div class="date-of-birth-icon">
+                                    <img class="iconfillcalendar" onclick="openDatePicker();"
+                                         alt=""
+                                         src="~/Icon/Calendar.png" />
+                                </div>
+                                <div class="date-of-birth1"  id="dobText">
+                                    Date of birth
+                                </div>
+                                <input type="date" id="dateOfBirth" class="date-of-birth2" name="date"/>
+                            </div>
+                            <div class="gender">
+                                <div class="shape4"></div>
+                                <img class="iconfillfemale" alt="Gender Icon" src="~/Icon/gender.png" />
+                                <div class="male">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input gender-option" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Male">
+                                        <div class="male1">Male</div>
+                                    </div>
+                                </div>
+                                <div class="female">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input gender-option" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Female">
+                                        <div class="female1">Female</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="sign-up1">
+                        <div class="bg3"></div>
+                        <div class="sign-up2">Sign Up</div>
+                    </button>
+                    <div class="account-link">
+                        <div class="login-link">
+                            <div class="already-have-an">Already have an account?</div>
+                            <a class="sign-in" href="/Account/Index">Sign In</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
